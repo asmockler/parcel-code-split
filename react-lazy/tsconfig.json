@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "incremental": true,
+    "rootDir": "./src",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src"]
+}
