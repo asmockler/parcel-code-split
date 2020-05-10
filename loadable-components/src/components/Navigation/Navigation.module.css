@@ -1,0 +1,9 @@
+.List {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  column-gap: 8px;
+  grid-auto-flow: column;
+  justify-content: start;
+}

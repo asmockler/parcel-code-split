@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import { Navigation } from "../../components";
 
 export function Home() {
+  const navigation = <Navigation nextUrl="/chapter-1" />;
+
   return (
-    <>
-      <h1>Home page</h1>
-      <Link to="/about">About</Link>
-    </>
+    <div>
+      {navigation}
+      <h1>Little Women</h1>
+      {navigation}
+    </div>
   );
 }
